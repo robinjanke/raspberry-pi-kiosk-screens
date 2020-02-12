@@ -24,11 +24,11 @@ print("Installing pip packages start")
 subprocess.check_output(["/bin/bash", "-c", "pip3", "install" "-r", "requirements.txt"])
 
 print("Running apt-get update")
-subprocess.check_output(["/bin/bash", "-c", "sudo", "apt-get", "update", "-y"])
+subprocess.check_output(["sudo", "apt-get", "update", "-y"])
 
 print("Installing packages with apt-get")
 for package in ["chromium-driver", "ufw", "vim"]:
-    subprocess.check_output(["/bin/bash", "-c", "sudo", "apt-get", "install", "-y", package])
+    subprocess.check_output(["sudo", "apt-get", "install", "-y", package])
 
 ask_and_write_to_file("Jira username", jira_username_filename)
 ask_and_write_to_file("Jira password", jira_password_filename)
