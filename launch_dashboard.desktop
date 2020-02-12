@@ -3,4 +3,4 @@
   Name=Dashboard
   Comment=Launch Dashboard
   NoDisplay=false
-  Exec=/bin/bash -c "cd CURRENT_DIR && python3 FILENAME"
+  Exec=/bin/bash -c "cd {CURRENT_DIR} && python3 {FILENAME}"

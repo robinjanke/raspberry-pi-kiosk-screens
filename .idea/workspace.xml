@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3b23da1a-9940-4da9-b848-ec3ed91a0c26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch_dashboard.desktop" beforeDir="false" afterPath="$PROJECT_DIR$/launch_dashboard.desktop" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581518067675</updated>
-      <workItem from="1581518069271" duration="3688000" />
+      <workItem from="1581518069271" duration="3945000" />
     </task>
     <task id="LOCAL-00001" summary="fixed build (again)">
       <created>1581521856620</created>
