@@ -41,11 +41,11 @@ current_dir = os.path.dirname(os.path.realpath(__file__))
 dashboard_file_content = dashboard_file.read()
 dashboard_file_content.replace("CURRENT_DIR", current_dir)
 dashboard_file_content.replace("FILENAME", script_filename)
-subprocess.check_output(["/bin/bash", "-c", "sudo", "echo", dashboard_file_content, ">", launch_dashboard_filename_etc])
+subprocess.check_output(["sudo", "echo", dashboard_file_content, ">", launch_dashboard_filename_etc])
 
-for second in range(0, 10):
+for second in range(10, 0):
     print("Rebooting in {} seconds".format(second))
     time.sleep(1)
 
 print("Rebooting now")
-subprocess.check_output(["/bin/bash", "-c", "sudo", "reboot"])
+subprocess.check_output(["sudo", "reboot"])
