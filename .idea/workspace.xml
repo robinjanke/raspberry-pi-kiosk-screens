@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b23da1a-9940-4da9-b848-ec3ed91a0c26" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Xi9Uz4zphpOT98dlbmpqxRpYKx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b23da1a-9940-4da9-b848-ec3ed91a0c26" name="Default Changelist" comment="" />
+      <created>1581518067675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581518067675</updated>
+      <workItem from="1581518069271" duration="2466000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="502" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581519253452">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="502" y="346" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1581519253452" />
+    <state x="328" y="118" key="SettingsEditor" timestamp="1581518096761">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="328" y="118" key="SettingsEditor/-1920.23.1920.1057/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1581518096761" />
+    <state x="498" y="293" width="683" height="486" key="find.popup" timestamp="1581520562831">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="498" y="293" width="683" height="486" key="find.popup/-1920.23.1920.1057/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1581520562831" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1581518330332">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1581518330332" />
+  </component>
+</project>
