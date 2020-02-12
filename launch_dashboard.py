@@ -3,10 +3,10 @@ import time
 
 from selenium.webdriver.common.keys import Keys
 
-email = open("data/jira_user.txt", "w+").read()
-password = open("data/jira_password.txt", "w+").read()
-url = open("data/jira_url.txt", "w+").read()
-dashboard = open("data/jira_dashboard.txt", "w+").read()
+email = open("data/jira_user.txt", "r").read()
+password = open("data/jira_password.txt", "r").read()
+url = open("data/jira_url.txt", "r").read()
+dashboard = open("data/jira_dashboard.txt", "r").read()
 
 options = webdriver.ChromeOptions()
 options.add_argument(argument="-kiosk")
