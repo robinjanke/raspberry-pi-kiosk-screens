@@ -22,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -46,22 +47,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581518067675</updated>
-      <workItem from="1581518069271" duration="3444000" />
+      <workItem from="1581518069271" duration="3688000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed build (again)">
+      <created>1581521856620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581521856620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed build (again)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed build (again)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="502" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581519253452">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="502" y="346" key="#com.intellij.fileTypes.FileTypeChooser/-1920.23.1920.1057/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1581519253452" />
+    <state x="362" y="139" key="CommitChangelistDialog2" timestamp="1581521856302">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="362" y="139" key="CommitChangelistDialog2/-1920.23.1920.1057/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1581521856302" />
     <state x="328" y="118" key="SettingsEditor" timestamp="1581518096761">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="328" y="118" key="SettingsEditor/-1920.23.1920.1057/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1581518096761" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1581521858384">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/1920.23.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1581521858384" />
     <state x="498" y="293" width="683" height="486" key="find.popup" timestamp="1581520562831">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
