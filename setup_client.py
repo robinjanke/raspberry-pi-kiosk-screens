@@ -42,9 +42,10 @@ dashboard_file_content = dashboard_file.read()
 dashboard_file_content.replace("CURRENT_DIR", current_dir)
 dashboard_file_content.replace("FILENAME", script_filename)
 subprocess.check_output(["sudo", "touch", launch_dashboard_filename_etc])
-subprocess.check_output(["sudo", "chmod", "0755", launch_dashboard_filename_etc])
+subprocess.check_output(["sudo", "chmod", "0777", launch_dashboard_filename_etc])
 subprocess.check_output(["sudo", "chown", "root:root", launch_dashboard_filename_etc])
-subprocess.check_output(["sudo", "echo", dashboard_file_content, ">", launch_dashboard_filename_etc])
+open(launch_dashboard_filename_etc, "w+").write(dashboard_file_content)
+subprocess.check_output(["sudo", "chmod", "0755", launch_dashboard_filename_etc])
 
 for second in range(10, 0):
     print("Rebooting in {} seconds".format(second))
