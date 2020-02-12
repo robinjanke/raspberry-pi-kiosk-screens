@@ -27,7 +27,7 @@ print("Running apt-get update")
 subprocess.check_output(["sudo", "apt-get", "update", "-y"])
 
 print("Installing packages with apt-get")
-for package in ["chromium-driver", "ufw", "vim"]:
+for package in ["chromium-driver", "ufw", "vim", "unclutter"]:
     subprocess.check_output(["sudo", "apt-get", "install", "-y", package])
 
 ask_and_write_to_file("Jira username", jira_username_filename)
