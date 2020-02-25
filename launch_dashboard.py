@@ -32,9 +32,9 @@ def launch_jenkins(driver):
 
     driver.get(url)
 
+    time.sleep(3)
     username_input = driver.find_element_by_name("j_username")
     username_input.send_keys(username)
-    username_input.send_keys(Keys.ENTER)
     time.sleep(3)
     password_input = driver.find_element_by_name("j_password")
     password_input.send_keys(password)
