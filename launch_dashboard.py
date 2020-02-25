@@ -38,8 +38,11 @@ def launch_jenkins(driver):
     time.sleep(3)
     password_input = driver.find_element_by_name("j_password")
     password_input.send_keys(password)
-    password_input.send_keys(Keys.ENTER)
-    time.sleep(10)
+    try:
+        password_input.send_keys(Keys.ENTER)
+    except Exception as e:
+        print("Enter key already pressed")
+    time.sleep(5)
 
     driver.get("{}/view/{}".format(url, view))
 
