@@ -7,9 +7,9 @@ jira_password_filename = "data/jira_password.txt"
 jira_url_filename = "data/jira_url.txt"
 jira_dashboard_filename = "data/jira_dashboard.txt"
 
-jenkins_username_filename = "data/jenkins_username.txt"
+jenkins_url_filename = "data/jenkins_url.txt"
 jenkins_password_filename = "data/jenkins_password.txt"
-jenkins_url_filename = "data/jenkins_user.txt"
+jenkins_username_filename = "data/jenkins_user.txt"
 jenkins_view_filename = "data/jenkins_view.txt"
 
 webdriver_path = ""

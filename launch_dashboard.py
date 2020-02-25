@@ -25,7 +25,7 @@ def launch_jira(driver):
 
 
 def launch_jenkins(driver):
-    username = open("data/jenkins_username.txt", "r").read()
+    username = open("data/jenkins_user.txt", "r").read()
     password = open("data/jenkins_password.txt", "r").read()
     url = open("data/jenkins_url.txt", "r").read()
     view = open("data/jenkins_view.txt", "r").read()
